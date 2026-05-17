@@ -13,7 +13,7 @@ You have two options:
 2) Compile the stub.h file yourself to create the EXE!
     - You could compile this in VS. Figure that out yourself!
     - If you use MinGW/GCC you can just run this from within the folder you downloaded the .h file in:
-      - `gcc -O2 stub.c -o portal2.exe -lshlwapi -mwindows`
+      - `gcc -O2 stub.c -o portal2.exe -lshlwapi -mwindows -municode`
 
 3) Do none of these things and run a python script instead!
     - You could do that if you want... watch the youtube video here:
